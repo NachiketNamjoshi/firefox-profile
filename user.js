@@ -243,6 +243,12 @@ user_pref("findbar.highlightAll", true);
  * START: MY OVERRIDES                                                      *
 ****************************************************************************/
 // Enter your personal prefs below this line:
+// PREF: restore Firefox Sync
+user_pref("identity.fxaccounts.enabled", true);
+
+// PREF: restore Firefox View
+user_pref("browser.tabs.firefox-view", true);
+user_pref("browser.tabs.firefox-view-next", true); // [FF119+]
 
 /****************************************************************************
  * END: BETTERFOX                                                           *
