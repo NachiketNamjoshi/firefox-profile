@@ -250,6 +250,9 @@ user_pref("identity.fxaccounts.enabled", true);
 user_pref("browser.tabs.firefox-view", true);
 user_pref("browser.tabs.firefox-view-next", true); // [FF119+]
 
+// PREF: restore search engine suggestions
+user_pref("browser.search.suggest.enabled", true);
+
 /****************************************************************************
  * END: BETTERFOX                                                           *
 ****************************************************************************/
