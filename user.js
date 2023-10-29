@@ -256,6 +256,13 @@ user_pref("browser.search.suggest.enabled", true);
 // PREF: enable container tabs
 user_pref("privacy.userContext.enabled", true);
 
+/****************************************************************************************
+ * INSTANT SCROLLING (SIMPLE ADJUSTMENT)                                                *
+****************************************************************************************/
+user_pref("apz.overscroll.enabled", true); // not DEFAULT on Linux
+user_pref("general.smoothScroll", true); // DEFAULT
+user_pref("mousewheel.default.delta_multiplier_y", 400); // 250-400; adjust this number to your liking
+
 /****************************************************************************
  * END: BETTERFOX                                                           *
 ****************************************************************************/
