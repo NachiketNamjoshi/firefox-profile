@@ -253,6 +253,9 @@ user_pref("browser.tabs.firefox-view-next", true); // [FF119+]
 // PREF: restore search engine suggestions
 user_pref("browser.search.suggest.enabled", true);
 
+// PREF: enable container tabs
+user_pref("privacy.userContext.enabled", true);
+
 /****************************************************************************
  * END: BETTERFOX                                                           *
 ****************************************************************************/
